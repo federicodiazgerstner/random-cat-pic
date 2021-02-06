@@ -29,7 +29,7 @@ function App() {
             <div className="title-container">
               <h1 className="title">GATITOS RANDOM PARA ALEGRAR TU DÍA!</h1>
             </div>
-            <img className="img" src={data} alt="cat image" />
+            <img className="img" src={data} alt="cat" />
             <br />
             <div className="button-container">
               <button className="button" onClick={fetchData}>
